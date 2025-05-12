@@ -1,8 +1,6 @@
 ---
 ---
-$bg: #401121;
-$body-background: $bg !default;
+$body-background: #401121 !default;
 
-@import 'jekyll-theme-hacker';
-@import "default_colors";
+@import "{{ site.theme }}";
 
