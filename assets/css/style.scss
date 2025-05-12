@@ -1,0 +1,7 @@
+$bg: #401121
+---
+---
+@import "{{ site.theme }}";
+@import "default_colors";
+
+$body-background: $bg !default;
