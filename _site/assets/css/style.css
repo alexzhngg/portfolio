@@ -22,7 +22,7 @@
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx { color: #90a959; }
 .highlight .ss { color: #90a959; }
 
-body { margin: 0; padding: 0; background: #401121 url("../images/bkg.png") 0 0; color: #eaeaea; font-size: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
+body { margin: 0; padding: 0; background: #13051f url("../images/bkg.png") 0 0; color: #eaeaea; font-size: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
 
 /* General & 'Reset' Stuff */
 .container { width: 90%; max-width: 1000px; margin: 0 auto; }
@@ -107,4 +107,14 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 #a-title { text-decoration: none; }
 
-body { margin: 0; padding: 0; background: #401121; color: #eaeaea; font-size: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
+body { background: #13051f; }
+
+.container { width: 90%; max-width: 1000px; margin: 0 80px 0 80px; }
+
+header h1 { font-size: 50px; color: #d3b3ff; }
+
+header h1:before { content: "./ "; font-size: 42px; }
+
+h1, h2, h3, h4, h5, h6 { color: #d3b3ff; }
+
+header h2 { color: #e3cade; }
